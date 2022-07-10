@@ -57,6 +57,9 @@ function timer() {
         if (sec < 0) {
             clearInterval(timer_val);
             endScreen();
+            document.addEventListener("keydown",function(){
+                alert("Refresh Page to Perform Action");
+            })
         }
     }, 1000);
 }
