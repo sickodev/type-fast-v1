@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Allura&family=Cormorant+SC&display=swap");
+body {
+  border: 1px solid black;
+}
+
+.heading {
+  text-align: center;
+  display: block;
+  border: 1px solid black;
+  margin: 1%;
+}
+
+.title {
+  font-family: "Cormorant";
+  font-size: 4rem;
+  font-weight: 600;
+}
+
+span {
+  font-style: italic;
+  text-shadow: 2px 0 rgb(7, 162, 7);
+}
+
+.title-desc {
+  font-size: 1.5rem;
+}
+
+.info {
+  padding: 3% 5%;
+  margin: 1%;
+  border: 1px dashed black;
+}
+
+.info-title {
+  font-size: 3rem;
+  text-align: center;
+  text-decoration: underline;
+  padding: 2% 5%;
+  padding-bottom: 5%;
+}
+
+.info-items {
+  font-size: 1.5rem;
+}
+
+.generator {
+  text-align: center;
+}
+
+.start-info {
+  padding: 2% 3%;
+}
+
+.text-gen {
+  padding: 5% 11%;
+  font-family: "Cormorant";
+  font-weight: bold;
+  font-size: 5rem;
+}
+
+.start {
+  width: 100px;
+}
+
+.score {
+  text-align: center;
+}
+
+.score-text {
+  font-family: monospace;
+  font-size: 2rem;
+  color: blue;
+}
+
+.text-enter {
+  text-align: center;
+  padding: 5% 11%;
+}
+
+input {
+  width: 500px;
+  height: 50px;
+  font-size: 100px;
+  position: relative;
+}
+
+footer {
+  text-align: center;
+}
+
+.footer-text {
+  color: red;
+  font-size: x-small;
+}/*# sourceMappingURL=styles.css.map */
